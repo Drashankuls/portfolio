@@ -2,7 +2,7 @@ import os
 from .settings import *
 from .settings import BASE_DIR
 
-ALLOWED_HOSTS = [drashanprofile-g4fraefre2cxexgb.canadacentral-01.azurewebsites.net]
+ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']]
 DEBUG = False
 
 MIDDLEWARE = [
