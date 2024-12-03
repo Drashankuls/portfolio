@@ -1,0 +1,178 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="{% static '/css/page.css' %}">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+        </nav>
+    </header>
+    <section class="profile">
+        <div>
+            <img  class="pic_container" src="{% static '/pics/picture1.jpg' %}">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, my name is</p><br>
+            <h1>Drashan Kulshreshtha</h1><br>
+            <p class="mini">This static webpage is made on django and hosted on Azure</p>
+        </div>
+    </section>
+    <section class="about">
+        <h1>About me</h1>
+        <div class="first_part">
+            <div>
+                <h2>EDUCATION</h2><br>
+                <p>• 2021 - 2022 • University of California, Berkeley</p>
+                <p>Masters (Mechanical Engineering)</p><br>
+                <p>• 2011 - 2015 • Indian Maritime University</p>
+                <p>Bachelors (Marine/Mechanical Engineering)</p>
+            </div>
+            <div>
+                <h2>EXPERIENCES</h2><br>
+                <p>• 2022-Till date • Global Product support Engineer (Level 3) Senior</p>
+                <p>  Applied Materials Inc. (United States)</p><br>
+                <p>• 2021-2022 • University of California, Berkeley</p>
+                <p>  Wave Energy Desalination Capstone project manager</p><br>
+                <p>• 2015-2020 • Mediterranean Shipping Company</p>
+                <p>  Sr. Mechanical Engineer</p><br>
+                <p>• 2014-2015 • Mediterranean Shipping Company</p>
+                <p>  Mechanical Engineer Intern (Cadet)</p><br>
+            </div>
+        </div>
+        <div class="me">
+            <p>
+                I am a Bay Area working professional, enthusiastic about technology. Working in the semiconductor manufacturing industry as a product support engineer. I am a quick learner and love to learn new subjects on my own time. Also I am a strong believer that expanding our knowledge boundary is essential for personal and professional growth.
+                I am also enthusiastic about mutual learning and team-work, as it teaches the attitude of mutual responsibility and ownership.
+            </p>
+        </div>
+    </section><br>
+    <section class="achievement">
+        <h1>Achievement</h1><br>
+        <div>
+            <p>• Senior engineer responsible of pneumatic and heat exchanger system modification for temperature control to enable ship passage in below zero temperature. The modification was done in conjunction with upgrading existing hydraulic and thermal systems to enable control by newly installed automation system</p><br>
+            <p>• In-charge of fueling and purification system’s modification and calibration in order to comply with international Paris Climate agreement auditing.</p><br>
+            <p>• Product support engineer for heating element controls with precision of 0.2 degree C for minimizing deviation in wafer to wafer thickness in semiconductor industry. </p><br>
+            <p>• Support engineer for testing and modifying hardware for testing patented chemicals for developing new materials with properties beneficial in semiconductor industry.</p><br>
+            <p>• Modifying thermal control systems for high temperature control for cooperate Black diamond products.</p>
+        </div>
+    </section>
+    <section class="skills">
+        <h1>Skills</h1><br>
+        <div class="skill1">
+            <div>
+                <h2>Technical skills</h2><br>
+                <ul>
+                    <li>Machining</li>
+                    <li>Prototyping</li>
+                    <li>Failure Analysis</li>
+                    <li>Quality testing</li>
+                    <li>Troubleshooting</li>
+                    <li>Design of engineering</li>
+                    <li>Assembly</li>
+                    <li>System Diagnosis</li>
+                </ul>
+            </div>
+            <div>
+                <h2>System skills</h2><br>
+                <ul>
+                    <li>Thermal systems</li>
+                    <li>Electrical power systems</li>
+                    <li>Combustion systems</li>
+                    <li>Hydraulic systems</li>
+                    <li>HVAC systems</li>
+                    <li>Filteration system</li>
+                    <li>Refergiration systems</li>
+                    <li>Pneumatic system</li>
+                </ul>
+            </div>
+        </div><br>
+        <div class="skill2">
+            <div>
+                <h2>Soft skills</h2><br>
+                <ul>
+                    <li>Team work</li>
+                    <li>Cross function collaboration</li>
+                    <li>Details orientated</li>
+                    <li>Interpersonal skills</li>
+                    <li>Organizational skills</li>
+                    <li>Communication skills</li>
+                    <li>Quick learner</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Computer skills</h2><br>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Full stack</li>
+                    <li>Django</li>
+                    <li>CAD</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <h1>Pet Projects</h1><br>
+        <div class="pj1">
+            <div class="pp1">
+                <p>Project 1</p><br>
+                <p>
+                This was my first project that I started when I started self learning Computer science.
+                As of right now, I am still in the middle of the project. It is meant to be a Saas application for job seekers to track and monitor their application in real time. 
+                It records the applications that you are applying to and helps check that someone doesn't apply to the same job posting twice.
+                I have also been trying to make the back end logic to verify, what are the chances of that job application being read by the actual manager. 
+                Once online, it will also check the timelines for any job posting to figure out if that post is a ghost job or a genuine one.
+                </p>                
+            </div>
+            <div>
+                <img class="pics"  src="{% static '/pics/picture3.png' %}">
+            </div>
+        </div><br>
+        <div class="pj2">
+            <div class="pp2">
+                <p>Project 2</p><br>
+                <p>
+                    This project is the most recent one, and I am planning to deploy it online by the end of this year.
+                    This is a sports statistics Webapp which I have been developing for sports fans to follow their favorite sports teams. 
+                    I have also been using this Saas application to build a stripe-Django framework which in future will be customizable to other Saas applications.
+                </p>                
+            </div>
+            <div>
+                <img class="pics"  src="{% static '/pics/picture4.png' %}">
+            </div>
+        </div>
+        <div class="pj3">
+            <div class="pp3">
+                <p>Project 3</p><br>
+                <p>
+                    “Optical card” - this is the latest project that I will start working on once my other 2 projects have been completed.
+                    I intend to use this project as the foundation for building a finance startup that will create a smart card technology that will use an optical color changing pattern to generate a dynamic OPT code. 
+                    So as we know that OPT in bank transactions is vital. But scammers use this technology to charge and steal via wire transfers etc. This technology will allow people to have a physical layer of security over their digital identity that will prevent several frauds and scams.
+                </p>                
+            </div>
+            <div>
+                <img class="pics"  src="{% static '/pics/picture5.png' %}">
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h1>Contact me</h1>
+        <div class="con1">
+            <div>
+                <img  class="social_container" src="{% static '/pics/picture2.png' %}" onclick="location.href='https://www.linkedin.com/in/drashan-kulshreshtha-452374158?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3ByltZ8pCIQEqxM2t0m%2Fs9yg%3D%3D'">
+            </div>
+            <div>
+                <img  class="social_container2" src="{% static '/pics/picture6.png' %}" onclick="location.href='mailto:drashankuls@gmail.com'">
+            </div>
+        </div>        
+    </section>
+
+</body>
+
+</html>
